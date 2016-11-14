@@ -1,20 +1,8 @@
-.container-div{
-    margin: 20px;
-}
-.view{
-    margin: 0px auto;
-    height: 100px;
-}
-.view-filters{
-    background-color: yellow;
-}
-.view-content{
-    background-color: green;
-}
 .resource-cart{
     height: 34px;
-    background-color: grey;
+    background-color: white;
     margin: 20px 0px;
+    border: 1px solid #082e78;
 }
 @media (min-width: 768px){
     .resource-cart{
@@ -22,13 +10,6 @@
     }
 }
 @media (min-width: 992px){
-    .container-div{
-        width: 840px;
-    }
-    .view{
-        padding-left: 100px;
-        width: 740px;
-    }
     .resource-cart{
         float: right;
         width: calc(100% - 549px);

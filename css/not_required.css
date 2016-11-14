@@ -1,0 +1,22 @@
+.container-div{
+    margin: 20px;
+}
+.view{
+    margin: 0px auto;
+    height: 100px;
+}
+.view-filters{
+    background-color: yellow;
+}
+.view-content{
+    background-color: green;
+}
+@media (min-width: 992px){
+    .container-div{
+        width: 840px;
+    }
+    .view{
+        padding-left: 100px;
+        width: 740px;
+    }
+}
