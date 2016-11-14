@@ -1,0 +1,43 @@
+.container-div{
+    margin: 20px;
+}
+.view{
+    margin: 0px auto;
+    height: 100px;
+}
+.view-filters{
+    background-color: yellow;
+}
+.view-content{
+    background-color: green;
+}
+.resource-cart{
+    height: 34px;
+    background-color: grey;
+    margin: 20px 0px;
+}
+@media (min-width: 768px){
+    .resource-cart{
+        width: 384px;
+    }
+}
+@media (min-width: 992px){
+    .container-div{
+        width: 840px;
+    }
+    .view{
+        padding-left: 100px;
+        width: 740px;
+    }
+    .resource-cart{
+        float: right;
+        width: calc(100% - 549px);
+        margin-top: -62px;
+        margin-right: 27px;
+    }
+}
+@media (min-width: 1200px){
+    .resource-cart{
+        width: calc(100% - 600px);
+    }
+}
