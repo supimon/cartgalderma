@@ -1,5 +1,8 @@
-.clearfix{
+.clearfix-cart{
     clear: both;
+}
+.hidden-cart{
+    visibility: hidden !important;
 }
 .new-resource-cart{
     margin: 20px 10px;
@@ -126,8 +129,10 @@
     margin: 0px 24px;
 }
 .new-resource-cart .cart-items-holder .product-title{
-    margin-left: 30px;
-    width: 300px;
+    width: 70%;
+    display: inline-block;
+}
+.new-resource-cart .cart-items-holder .product-quant{
     display: inline-block;
 }
 .new-resource-cart .request-btn {
@@ -154,11 +159,11 @@
 .new-resource-cart .delete-bin{
     display: inline-block;
     float: left;
-    width: 7%;
+    width: 28px;
     height: 34px;
     background-image: url("../assets/delete-bin-icon.png");
     background-position: left;
-    background-size: 39%;
+    background-size: 43%;
     background-repeat: no-repeat;
 }
 .new-resource-cart .product-name{
@@ -166,12 +171,17 @@
     float: left;
     line-height: 19px;
     text-transform: uppercase;
-    width: 304px;
+    width: 70%;
 }
 .new-resource-cart .prod-quantity{
     display: inline-block;
     float: left;
-    width: 30px;
+    width: 35px;
+    height: 20px;
+    border: 1px solid #c3c3c3;
+    text-align: center;
+    font-size: 13px;
+    margin-left: 5px;
 }
 @media (min-width: 768px){
     .new-resource-cart{
@@ -187,6 +197,19 @@
         top: -11px;
         right: 68px;
         left: auto;
+    }
+    .new-resource-cart .cart-items-holder .product-title{
+        width: 300px;
+    }
+    .new-resource-cart .delete-bin{
+        width: 7%;
+        background-size: 39%;
+    }
+    .new-resource-cart .product-name{
+        width: 304px;
+    }
+    .new-resource-cart .prod-quantity{
+        margin-left: 0px;
     }
 }
 @media (min-width: 992px){
