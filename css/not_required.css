@@ -1,5 +1,14 @@
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 0px;
+}
+section{
+    text-align: center;
+}
 .container-div{
-    margin: 20px;
+    width: 100%;
+    text-align: left;
+    display: inline-block;
 }
 .view{
     margin: 0px auto;
@@ -10,6 +19,12 @@
 }
 .view-content{
     background-color: green;
+}
+@media (min-width: 768px) {
+    .container-div {
+        width: auto;
+        margin: 20px;
+    }
 }
 @media (min-width: 992px){
     .container-div{
