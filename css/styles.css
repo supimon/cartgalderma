@@ -1,3 +1,6 @@
+.clearfix{
+    clear: both;
+}
 .new-resource-cart{
     margin: 20px 10px;
     position: relative;
@@ -37,7 +40,6 @@
     background-repeat: no-repeat;
 }
 .new-resource-cart .popover{
-    height: 100px;
     position: absolute;
     top: 0px;
     right: 0px;
@@ -92,6 +94,84 @@
     border-bottom-color: #082e78;
     top: -11px;
     left: 10%;
+}
+.new-resource-cart .cart-title{
+    text-align: center;
+    margin-left: 54px;
+    font-weight: 200;
+    line-height: 35px;
+    letter-spacing: .05em;
+    margin-top: 12px;
+    margin-bottom: 30px;
+    font-size: 21px;
+    text-transform: uppercase;
+}
+.new-resource-cart .close-icon{
+    display: inline-block;
+    float: right;
+    width: 15%;
+    height: 34px;
+    background-image: url("../assets/close-icon.png");
+    background-position: center;
+    background-size: 30%;
+    background-repeat: no-repeat;
+}
+.new-resource-cart .fixed-part{
+    margin: 28px 24px;
+    padding-top: 28px;
+    text-align: center;
+    border-top: 1px solid #d2d2d2;
+}
+.new-resource-cart .cart-items-holder{
+    margin: 0px 24px;
+}
+.new-resource-cart .cart-items-holder .product-title{
+    margin-left: 30px;
+    width: 300px;
+    display: inline-block;
+}
+.new-resource-cart .request-btn {
+    display: inline-block;
+    width: 200px;
+    text-transform: uppercase;
+    color: #082e78;
+    font-weight: 100;
+    font-size: 15px;
+    border: 1px solid #082e78;
+    background-color: white;
+    padding: 8px 12px;
+    letter-spacing: .4px;
+}
+.new-resource-cart .cart-items-ul{
+    padding: 0px;
+    list-style-type: none;
+    max-height: 150px;
+    overflow: scroll;
+}
+.new-resource-cart .cart-items-li{
+    margin-bottom: 15px;
+}
+.new-resource-cart .delete-bin{
+    display: inline-block;
+    float: left;
+    width: 7%;
+    height: 34px;
+    background-image: url("../assets/delete-bin-icon.png");
+    background-position: left;
+    background-size: 39%;
+    background-repeat: no-repeat;
+}
+.new-resource-cart .product-name{
+    display: inline-block;
+    float: left;
+    line-height: 19px;
+    text-transform: uppercase;
+    width: 304px;
+}
+.new-resource-cart .prod-quantity{
+    display: inline-block;
+    float: left;
+    width: 30px;
 }
 @media (min-width: 768px){
     .new-resource-cart{
